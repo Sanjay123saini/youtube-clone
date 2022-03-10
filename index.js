@@ -25,7 +25,7 @@ async function display(){
     // q = Popular Videos --> Popular%20Videos (%20 -> Space)
    // https://www.youtube.com/results?search_query=kids+rhymes
     let res = await fetch(`https://youtube.googleapis.com/youtube/v3/search?q=kids+rhymes
-    &key=AIzaSyA00OxUbfdfVAjHn-9l48s0t-n_j7CBbNs&maxResults=250`);
+    &key=AIzaSyA00OxUbfdfVAjHn-9l48s0t-n_j7CBbNs&maxResults=1`);
 
     let data = await res.json();
     
